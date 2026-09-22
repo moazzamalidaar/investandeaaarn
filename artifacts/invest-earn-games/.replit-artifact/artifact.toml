@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Invest & Earn Games"
+description = "The Invest & Earn games platform with investment plans, casino games, and manual payment deposits with QR and Till ID support."
+version = "1.0.0"
+id = "artifacts/invest-earn-games"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19579
+
+[services.development]
+run = "pnpm --filter @workspace/invest-earn-games run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/invest-earn-games", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/invest-earn-games/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19579"
+BASE_PATH = "/"

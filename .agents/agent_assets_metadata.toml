@@ -1,0 +1,17 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "D1A6vCEEx2AJ8gI_vhBWo"
+uri = "file://.local/conversation-workspace/files/Invest-and-Earn-Games-updated.zip"
+type = "unspecified"
+title = "Updated Invest and Earn Games project"
+description = "Updated project with the 500 investment plan QR code, Till ID 984440636, copy action, screenshot proof flow, and unchanged layouts for the other plans."
+logical_id = "7d688453-fcd5-440a-910e-3b81621787a3"
+content_hash = "sha256:286182ac21f5880f8364a6b859943c528fa6b8490dd33a6136827f68a3f4709a"
+size = 15088407
+mtime_ms = 1789082134415
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/conversation:d396a59c-1869-4e4b-8fc7-fa6ea4212f0a/7d688453-fcd5-440a-910e-3b81621787a3/053b354f-4481-4474-bf17-a233c41ed1ea"
+storage_version_token = "1789082145146855"
+content_type = "application/octet-stream"
+source_uri = "file://Invest-and-Earn-Games-updated.zip"

@@ -1,0 +1,8 @@
+{
+  "name": "Invest and Earn Games",
+  "description": "Invest and earn arcade and casino games collection including Wingo, Roulette, and Aviator mini-games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
